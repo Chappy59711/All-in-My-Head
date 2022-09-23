@@ -18,6 +18,10 @@
         Include or do not include DNS resolution during trace route
             YES    - Include DNS resolution during trace route
             NO     - Do not include DNS resolution during trace route (default)
+    .PARAMETER S2File
+        Save the output to a file
+            FILE   - Save the output to a file
+            NOFILE - Output to the screen (default)
 	.EXAMPLE
 		PS> DiscIP -IPAddress 199.96.21.41
 		
@@ -42,8 +46,8 @@ param (
         [String]$S2File = 'NOFILE'
       )
 
-$global:TCP_Ports = @('21','22','23','25','80','389','443','445','1433','3389','5101','5353','5355','5900','5938','5985','5986','8000','9100','42981','50050')
-$global:TCP_PortName = @('FTP','SSH','Telnet','SMTP','HTTP','LDAP','SSL (HTTPS)','SMB/CIFS','SQL','RDP','RDP','mDNS','LLMNR','VNC','TeamViewer','WinRM','WinRM','HTTP','Print','RDP','CSTmSvr')
+$global:TCP_Ports = @('21','22','23','25','80','389','443','445','1433','3389','5101','5353','5355','5900','5938','5985','5986','8000','8010','9100','42981','50050')
+$global:TCP_PortName = @('FTP','SSH','Telnet','SMTP','HTTP','LDAP','SSL (HTTPS)','SMB/CIFS','SQL','RDP','RDP','mDNS','LLMNR','VNC','TeamViewer','WinRM','WinRM','HTTP','HTTP','Print','RDP','CSTmSvr')
 $global:UDP_Ports = @('53','67','88','123','137','161','389','5353','5355')
 $global:UDP_PortName = @('DNS','DHCP','Kerberos','NTP','NetBIOS''SNMP','LDAP','mDNS','LLMNR')
 $global:LinuxDistros = @('Android','Debian','GNU/Linux','Fedora','openSUSE','Red Hat','Slackware','SUSE','Ubuntu','Arch','CentOS','Gentoo','KNOPPIX','Mint','Mageia','Oracle','Scientific','Raspbian','Kali','ParrotOS','BackBox','BlackArch','CAINE','CensorNet','CLIP OS','Copperhead OS','Cyborg Hawk','DEFT','Security Onion','Sophos')
@@ -51,10 +55,10 @@ $global:LinuxDistros = @('Android','Debian','GNU/Linux','Fedora','openSUSE','Red
 $global:ProgressPreference = 'SilentlyContinue'
 
 # Program Versioning Information
-$global:DiscIPVersion = "1.0.20210919"
-$global:BuildDate = "09/19/2021"
+$global:DiscIPVersion = "1.0.20220223"
+$global:BuildDate = "02/23/2022"
 
-<# function HTTP-Failure
+function HTTP-Failure
 {
     $global:helpme = $body
     $global:helpmoref = $moref
@@ -66,7 +70,6 @@ $global:BuildDate = "09/19/2021"
     Write-Host -BackgroundColor:Black -ForegroundColor:Red "The request body has been saved to `$global:helpme"
     break
 }
-#>
 
 function Test-Port-Quick {
 	<#
@@ -585,76 +588,85 @@ Function Port_Analysis
     Return $PortAnalysis
 }
 
-$DirectoryToCreate = "\DiscoveryFiles\"
+$CurrentDate = Get-Date
 
-if (!(Test-Path E:))
+if ($S2File -eq "FILE")
 {
-    if (!(Test-Path D:))
+    $DirectoryToCreate = "\DiscoveryFiles\"
+
+    if (!(Test-Path E:))
     {
-        if (-not (Test-Path -LiteralPath "C:$($DirectoryToCreate)"))
+        if (!(Test-Path D:))
+        {
+            if (-not (Test-Path -LiteralPath "C:$($DirectoryToCreate)"))
+            {
+                try
+                {
+                    New-Item -Path "C:$($DirectoryToCreate)" -ItemType Directory -ErrorAction Stop | Out-Null #-Force
+                }
+                catch
+                {
+                    Write-Error -Message "Unable to create directory '$DirectoryToCreate'. Error was: $_" -ErrorAction Stop
+                }
+                #"Successfully created directory '$DirectoryToCreate'."
+                $FPath = "C:$($DirectoryToCreate)"
+            }
+            else
+            {
+                #"Directory already existed"
+                $FPath = "C:$($DirectoryToCreate)"
+            }
+        }
+        else
+        {
+            if (-not (Test-Path -LiteralPath "D:$($DirectoryToCreate)"))
+            {
+                try
+                {
+                    New-Item -Path "D:$($DirectoryToCreate)" -ItemType Directory -ErrorAction Stop | Out-Null #-Force
+                }
+                catch
+                {
+                    Write-Error -Message "Unable to create directory '$DirectoryToCreate'. Error was: $_" -ErrorAction Stop
+                }
+                #"Successfully created directory '$DirectoryToCreate'."
+                $FPath = "D:$($DirectoryToCreate)"
+            }
+            else
+            {
+                #"Directory already existed"
+                $FPath = "D:$($DirectoryToCreate)"
+            }
+        }
+    }
+    else
+    {
+        if (-not (Test-Path -LiteralPath "E:$($DirectoryToCreate)"))
         {
             try
             {
-                New-Item -Path "C:$($DirectoryToCreate)" -ItemType Directory -ErrorAction Stop | Out-Null #-Force
+                New-Item -Path "E:$($DirectoryToCreate)" -ItemType Directory -ErrorAction Stop | Out-Null #-Force
             }
             catch
             {
                 Write-Error -Message "Unable to create directory '$DirectoryToCreate'. Error was: $_" -ErrorAction Stop
             }
             #"Successfully created directory '$DirectoryToCreate'."
-            $FPath = "C:$($DirectoryToCreate)"
+            $FPath = "E:$($DirectoryToCreate)"
         }
         else
         {
             #"Directory already existed"
-            $FPath = "C:$($DirectoryToCreate)"
+            $FPath = "E:$($DirectoryToCreate)"
         }
     }
-    else
-    {
-        if (-not (Test-Path -LiteralPath "D:$($DirectoryToCreate)"))
-        {
-            try
-            {
-                New-Item -Path "D:$($DirectoryToCreate)" -ItemType Directory -ErrorAction Stop | Out-Null #-Force
-            }
-            catch
-            {
-                Write-Error -Message "Unable to create directory '$DirectoryToCreate'. Error was: $_" -ErrorAction Stop
-            }
-            #"Successfully created directory '$DirectoryToCreate'."
-            $FPath = "D:$($DirectoryToCreate)"
-        }
-        else
-        {
-            #"Directory already existed"
-            $FPath = "D:$($DirectoryToCreate)"
-        }
-    }
-}
-else
-{
-    if (-not (Test-Path -LiteralPath "E:$($DirectoryToCreate)"))
-    {
-        try
-        {
-            New-Item -Path "E:$($DirectoryToCreate)" -ItemType Directory -ErrorAction Stop | Out-Null #-Force
-        }
-        catch
-        {
-            Write-Error -Message "Unable to create directory '$DirectoryToCreate'. Error was: $_" -ErrorAction Stop
-        }
-        #"Successfully created directory '$DirectoryToCreate'."
-        $FPath = "E:$($DirectoryToCreate)"
-    }
-    else
-    {
-        #"Directory already existed"
-        $FPath = "E:$($DirectoryToCreate)"
-    }
-}
 
-write-host "**** ****************************************************************************************"
+    $CurDate = $(Get-Date -Format "MM-dd-yy")
+    $DevName = $IPAddress.replace(".","_")
+    $PCFile = "$($DevName)_Disc_Results_$($CurDate).txt"
+    $CurFName = "$($FPath)$($PCFile)"
+}
+write-host "********************************************************************************************"
 write-host "** IP Discovery Tool                 version $global:DiscIPVersion    Build Date: $global:BuildDate       **"
 write-host "**                                                                                        **"
 write-host "** Arguments                                                                              **"
@@ -679,6 +691,7 @@ write-host "** Windows PowerShell (version 7x)                                  
 write-host "**   - Works well for discovery of HTTP and HTTPS                                         **"
 write-host "**   - Cannot perform Risk assessment                                                     **"
 write-host "********************************************************************************************"
+write-host "Discovery Start Date and Time: $CurrentDate"
 
 if ($S2File -eq "FILE")
 {
@@ -706,7 +719,8 @@ if ($S2File -eq "FILE")
     write-output "** Windows PowerShell (version 7x)                                                        **" | out-file -append $CurFName
     write-output "**   - Works well for discovery of HTTP and HTTPS                                         **" | out-file -append $CurFName
     write-output "**   - Cannot perform Risk assessment                                                     **" | out-file -append $CurFName
-    write-output "********************************************************************************************" | out-file -append $CurFName 
+    write-output "********************************************************************************************" | out-file -append $CurFName
+    write-output "Discovery Start Date and Time: $CurrentDate"  | out-file -append $CurFName
 }
 
 $global:OverallTimer = [System.Diagnostics.Stopwatch]::StartNew()
@@ -863,7 +877,80 @@ $LoadTime = $global:timer.Elapsed
 $ElapsedTime = "{0:HH:mm:ss}" -f ([datetime]$LoadTime.Ticks)
 Write-Host " DNS Time:"$ElapsedTime
 
-Write-host $output_string
+$global:timer = [System.Diagnostics.Stopwatch]::StartNew()
+
+$SplitIPAddress = $IPAddress.Split(".")
+
+if ($SplitIPAddress[0] -ne 10)
+{
+    if ($SplitIPAddress[0] -ne 172)
+    {
+        if ($SplitIPAddress[0] -ne 192)
+        {
+            Write-Host "=============================== IP Info ===================================" -ForegroundColor Cyan
+            Write-Host -NoNewline "Retrieveing IP Info from ipinfo.io..."
+            $IPInfoURL = "https://ipinfo.io/" + $IPAddress + "/json?token=07ffbce68ef9cc"
+            $IPInfoResults = Invoke-WebRequest -Uri $IPInfoURL
+            Write-Host $IPInfoResults.Content
+            Write-Host "Retrieveing IP Info from ipinfo.io...Completed"
+
+            if ($S2File -eq "FILE")
+            {
+                Write-Output $IPInfoResults.Content | out-file -append $CurFName
+            }
+
+            $global:timer.Stop()
+            $LoadTime = $global:timer.Elapsed
+            $ElapsedTime = "{0:HH:mm:ss}" -f ([datetime]$LoadTime.Ticks)
+            Write-Host " IPInfo.io Query Time:"$ElapsedTime
+        }
+        else
+        {
+            if ($SplitIPAddress[1] -ne 168)
+            {
+                Write-Host "=============================== IP Info ===================================" -ForegroundColor Cyan
+                Write-Host -NoNewline "Retrieveing IP Info from ipinfo.io..."
+                $IPInfoURL = "https://ipinfo.io/" + $IPAddress + "/json?token=07ffbce68ef9cc"
+                $IPInfoResults = Invoke-WebRequest -Uri $IPInfoURL
+                Write-Host $IPInfoResults.Content
+                Write-Host "Retrieveing IP Info from ipinfo.io...Completed"
+
+                if ($S2File -eq "FILE")
+                {
+                    Write-Output $IPInfoResults.Content | out-file -append $CurFName
+                }
+
+                $global:timer.Stop()
+                $LoadTime = $global:timer.Elapsed
+                $ElapsedTime = "{0:HH:mm:ss}" -f ([datetime]$LoadTime.Ticks)
+                Write-Host " IPInfo.io Query Time:"$ElapsedTime
+            }
+        }
+    }
+    else
+    {
+        if ($SplitIPAddress[1] -lt 16 -Or $SplitIPAddress[1] -gt 32)
+        {
+            Write-Host "=============================== IP Info ===================================" -ForegroundColor Cyan
+            Write-Host -NoNewline "Retrieveing IP Info from ipinfo.io..."
+            $IPInfoURL = "https://ipinfo.io/" + $IPAddress + "/json?token=07ffbce68ef9cc"
+            $IPInfoResults = Invoke-WebRequest -Uri $IPInfoURL
+            Write-Host $IPInfoResults.Content
+            Write-Host "Retrieveing IP Info from ipinfo.io...Completed"
+
+            if ($S2File -eq "FILE")
+            {
+                Write-Output $IPInfoResults.Content | out-file -append $CurFName
+            }
+
+            $global:timer.Stop()
+            $LoadTime = $global:timer.Elapsed
+            $ElapsedTime = "{0:HH:mm:ss}" -f ([datetime]$LoadTime.Ticks)
+            Write-Host " IPInfo.io Query Time:"$ElapsedTime
+        }
+    }
+}
+#Write-host $output_string
 
 $TelnetInstalled = get-childitem -path C:\windows\system32\ *telnet.exe -file -recurse -erroraction SilentlyContinue
 
@@ -912,10 +999,10 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
 
                                                                 $global:timer = [System.Diagnostics.Stopwatch]::StartNew()
 
-                                                                #If (($a=Test-NetConnection $IpAddress -Port $_ -WarningAction SilentlyContinue).tcpTestSucceeded -eq $true)
+                                                                #If (($a=Test-Connection $IpAddress -Port $_ -WarningAction SilentlyContinue).tcpTestSucceeded -eq $true)
                                                                 If (($a=Test-Port-Quick -ComputerName $IpAddress -Protocol 'TCP' -Port $_).Result -eq $true)
                                                                 {
-                                                                    Write-Host "Open" -ForegroundColor Green -Separator " ==> "
+                                                                    Write-Host -NoNewLine "Open" -ForegroundColor Green -Separator " ==> "
                                                                     
                                                                     if ($S2File -eq "FILE")
                                                                     {
@@ -925,7 +1012,7 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                     Switch ($_)
                                                                     {
                                                                         "21" {
-                                                                                Write-Host -nonewline "    Interrogating TCP Port $_ $CurPort..."
+                                                                                Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
                                                                                 $PortFunction = TelnetDisc -PortNum $_ -IPAddr $IPAddress
                                                                                 Write-host -nonewline " "$PortFunction -ForegroundColor Yellow
                                                                                 $PortAnalysis = Port_Analysis -PortFunc $PortFunction
@@ -937,7 +1024,7 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                                 }
                                                                             }
                                                                         "22" {
-                                                                                Write-Host -nonewline "    Interrogating TCP Port $_ $CurPort..."
+                                                                                Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
                                                                                 $PortFunction = TelnetDisc -PortNum $_ -IPAddr $IPAddress
                                                                                 Write-host -nonewline " "$PortFunction -ForegroundColor Yellow
                                                                                 $PortAnalysis = Port_Analysis -PortFunc $PortFunction
@@ -949,14 +1036,19 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                                 }
                                                                                 }
                                                                         "23" {
-                                                                                Write-Host -nonewline "    Interrogating TCP Port $_ $CurPort..."
+                                                                                Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
                                                                                 $PortFunction = TelnetDisc -PortNum $_ -IPAddr $IPAddress
                                                                                 Write-host -nonewline " "$PortFunction -ForegroundColor Yellow
                                                                                 $PortAnalysis = Port_Analysis -PortFunc $PortFunction
                                                                                 Write-Host -nonewline " Completed"
+
+                                                                                if ($S2File -eq "FILE")
+                                                                                {
+                                                                                    Write-Output  "    Interrogating TCP Port $_ $CurPort...$PortFunction Completed." | out-file -append $CurFName
+                                                                                }
                                                                                 }
                                                                         "25" {
-                                                                                Write-Host -nonewline "    Interrogating TCP Port $_ $CurPort..."
+                                                                                Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
                                                                                 $PortFunction = TelnetDisc -PortNum $_ -IPAddr $IPAddress
                                                                                 Write-host -nonewline " "$PortFunction -ForegroundColor Yellow
                                                                                 $PortAnalysis = Port_Analysis -PortFunc $PortFunction
@@ -968,7 +1060,7 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                                 }
                                                                                 }
                                                                         "80" {
-                                                                                Write-Host -nonewline "    Interrogating TCP Port $_ $CurPort..."
+                                                                                Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
                                                                                 try
                                                                                 {
                                                                                     if ($host.version.major -lt 7)
@@ -1030,7 +1122,7 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                                 }
                                                                                 }
                                                                         "443" {
-                                                                                Write-Host -nonewline "    Interrogating TCP Port $_ $CurPort..."
+                                                                                Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
                                                                                 $PortFunction = Get-PublicKey -Uri "https://$IPAddress"
                                                                                 Write-host -nonewline " "$PortFunction -ForegroundColor Yellow
                                                                                 $PortAnalysis = Port_Analysis -PortFunc $PortFunction
@@ -1045,7 +1137,7 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                         "1433" {$ScanType = "URG"}
                                                                         "3389" {$ScanType = "RST"}
                                                                         "5985" {
-                                                                                    Write-Host -nonewline "    Interrogating TCP Port $_ $CurPort..."
+                                                                                    Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
                                                                                     $PortFunction = "WinRM is not present"
                                                                                     if ($Resolvable.Length -gt 0)
                                                                                     {
@@ -1069,7 +1161,7 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                                     }
                                                                                 }
                                                                         "8000" {
-                                                                                Write-Host -nonewline "    Interrogating TCP Port $_ $CurPort..."
+                                                                                Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
                                                                                 try
                                                                                 {
                                                                                     if ($host.version.major -lt 7)
@@ -1129,7 +1221,67 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                                 $PortAnalysis = Port_Analysis -PortFunc $PortFunction
                                                                                 Write-Host -NoNewline " Completed"
                                                                                 }
+                                                                        "8010" {
+                                                                                Write-Host -nonewline "`n    Interrogating TCP Port $_ $CurPort...`n"
+                                                                                try
+                                                                                {
+                                                                                    if ($host.version.major -lt 7)
+                                                                                    {
+                                                                                        $URI = $IPAddress + ":" + $_ + "/bogus.html"
+                                                                                        $Response = Invoke-WebRequest -Uri $URI
+                                                                                        # This will only execute if the Invoke-WebRequest is successful.
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        $URI = $IPAddress + ":" + $_ + "/bogus.html"
+                                                                                        $Response = Invoke-WebRequest -Uri $URI -SkipHttpErrorCheck -skipcertificatecheck
+                                                                                        # This will only execute if the Invoke-WebRequest is successful.
+                                                                                    }
 
+                                                                                    $StatusCode = $Response.StatusCode
+                                                                                    $StatusDescription = $Response.StatusDescription
+                                                                                    $RawContent = ($Response.RawContent -split '\n')[0..5]
+                                                                                }
+                                                                                catch
+                                                                                {
+                                                                                    if ($host.version.major -lt 7)
+                                                                                    {
+                                                                                        $StatusCode = $Error[0].ErrorDetails.Message
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        $StatusCode = $Response.StatusCode
+                                                                                        $StatusDescription = $Response.StatusDescription
+                                                                                        $Headers = $Response.Headers
+                                                                                        $RawContent = ($Response.RawContent -split '\n')[0..5]
+                                                                                    }
+                                                                                }
+
+                                                                                $PortFunction = $StatusCode
+
+                                                                                if ($host.version.major -lt 7)
+                                                                                {
+                                                                                    Write-host -nonewline " "$PortFunction -ForegroundColor Yellow
+
+                                                                                    if ($S2File -eq "FILE")
+                                                                                    {
+                                                                                        Write-Output  "    Interrogating TCP Port $_ $CurPort...$PortFunction Completed." | out-file -append $CurFName
+                                                                                    }
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    Write-host -nonewline " "$PortFunction":"$StatusDescription"`r`n" -ForegroundColor Yellow
+                                                                                    Write-host ($RawContent -join "`n") -ForegroundColor Yellow
+
+                                                                                    if ($S2File -eq "FILE")
+                                                                                    {
+                                                                                        Write-Output  "    Interrogating TCP Port $_ $CurPort...$PortFunction Completed." | out-file -append $CurFName
+                                                                                    }
+                                                                                }
+
+                                                                                $PortAnalysis = Port_Analysis -PortFunc $PortFunction
+                                                                                Write-Host -NoNewline " Completed"
+                                                                                }
                                                                         "50050" {
                                                                                     #wget -U "Internet Explorer" http://$IPAddress/vl6D
                                                                                     invoke-webrequest -Uri "http://$IPAddress/vl6D"
@@ -1151,6 +1303,12 @@ if ($DiscType -eq "Full" -or $DiscType -eq "Scan")
                                                                 Write-Host " Scan Time:"$ElapsedTime
                                                             }
     Write-Host "Completed."
+
+    if ($S2File -eq "FILE")
+    {
+        Write-Output  "Completed." | out-file -append $CurFName
+    }
+
 
     Write-Host "=============================== UDP Port Scanning ===================================" -ForegroundColor Yellow
     Write-Host "Scanning UDP ports (takes several minutes)..."
@@ -1202,6 +1360,21 @@ $ElapsedOverallTime = "{0:HH:mm:ss}" -f ([datetime]$LoadOverallTime.Ticks)
 Write-Host "*************************************************************************************"
 Write-Host "Discovery Time:"$ElapsedOverallTime -f Green
 Write-Host "*************************************************************************************"
+$CurrentDate = Get-Date
+Write-Host "*************************************************************************************"
+write-host "Discovery Completion Date and Time: $CurrentDate"
+Write-Host "*************************************************************************************"
+
+if ($S2File -eq "FILE")
+{
+    Write-Output "*************************************************************************************" | out-file -append $CurFName
+    Write-Output "Discovery Time:"$ElapsedOverallTime  | out-file -append $CurFName
+    Write-Output "*************************************************************************************" | out-file -append $CurFName
+    $CurrentDate = Get-Date
+    Write-Output "*************************************************************************************" | out-file -append $CurFName
+    write-Output "Discovery Completion Date and Time: $CurrentDate" | out-file -append $CurFName
+    Write-Output "*************************************************************************************" | out-file -append $CurFName
+}
 
 # SIG # Begin signature block
 # MIITTgYJKoZIhvcNAQcCoIITPzCCEzsCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
