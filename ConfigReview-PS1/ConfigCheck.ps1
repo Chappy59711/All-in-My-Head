@@ -749,22 +749,32 @@ Write-Host "====================================================================
 
     $Domain = Get-ADDomain | Select Forest
 
-    ##Get the RootDSE    $RootDSE = Get-ADRootDSE -Server $Domain.Forest    ##Get the Account Lockout policy    #Store specific attributes from the domain header    $AccountPolicy = Get-ADObject $RootDSE.defaultNamingContext -Property lockoutDuration,lockoutObservationWindow,lockoutThreshold -Server $Domain.Forest
+    ##Get the RootDSE
+    $RootDSE = Get-ADRootDSE -Server $Domain.Forest
+
+    ##Get the Account Lockout policy
+    #Store specific attributes from the domain header
+    $AccountPolicy = Get-ADObject $RootDSE.defaultNamingContext -Property lockoutDuration,lockoutObservationWindow,lockoutThreshold -Server $Domain.Forest
 
     #Format the Account Lockout policy
-    $AccountPolicy | Select @{n="PolicyType";e={"Account Lockout"}},`                            DistinguishedName,`                            @{n="lockoutDuration";e={"$($_.lockoutDuration / -600000000) minutes"}},`
+    $AccountPolicy | Select @{n="PolicyType";e={"Account Lockout"}},`
+                            DistinguishedName,`
+                            @{n="lockoutDuration";e={"$($_.lockoutDuration / -600000000) minutes"}},`
                             @{n="lockoutObservationWindow";e={"$($_.lockoutObservationWindow / -600000000) minutes"}},`
                             lockoutThreshold | Format-List
 
 
-    ##Get the Password policy    #Store specific attributes from the domain header    
+    ##Get the Password policy
+    #Store specific attributes from the domain header    
     $PasswordPolicy = Get-ADObject $RootDSE.defaultNamingContext -Property minPwdAge,maxPwdAge,minPwdLength,pwdHistoryLength,pwdProperties -Server $Domain.Forest
     
     #Format the Password policy
     $PasswordPolicy | Select @{n="PolicyType";e={"Password"}},`
-                             DistinguishedName,`                             @{n="minPwdAge";e={"$($_.minPwdAge / -864000000000) days"}},`
+                             DistinguishedName,`
+                             @{n="minPwdAge";e={"$($_.minPwdAge / -864000000000) days"}},`
                              @{n="maxPwdAge";e={"$($_.maxPwdAge / -864000000000) days"}},`
-                             minPwdLength,`                             pwdHistoryLength,`
+                             minPwdLength,`
+                             pwdHistoryLength,`
                              @{n="pwdProperties";e={Switch ($_.pwdProperties) {
                                   0 {"Passwords can be simple and the administrator account cannot be locked out"} 
                                   1 {"Passwords must be complex and the administrator account cannot be locked out"} 
