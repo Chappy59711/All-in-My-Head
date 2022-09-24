@@ -179,7 +179,7 @@
 "FilterAdministratorToken","1","HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System","4"
 "InactivityTimeoutSecs","0","HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System","4"
 "LegalNoticeCaption","Unauthorized access is prohibited!","HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System","1"
-"LegalNoticeText","Any illegal or unauthorized use of NorthWestern Corporation's computer networks and equipment is strictly prohibited.  NorthWestern has the sole right to determine and enforce information and equipment security practices,  including,  but not limited to,  monitoring the uses of its property and denial of access.","HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System","7"
+"LegalNoticeText","Any illegal or unauthorized use of Company Corporation's computer networks and equipment is strictly prohibited.  Company has the sole right to determine and enforce information and equipment security practices,  including,  but not limited to,  monitoring the uses of its property and denial of access.","HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System","7"
 "NoConnectedUser","3","HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System","4"
 "PromptOnSecureDesktop","1","HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System","4"
 "ScForceOption","0","HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System","4"
