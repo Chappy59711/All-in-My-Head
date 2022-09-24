@@ -9,7 +9,7 @@ Must be run under an adminitrative account.  Graphical user interface that shows
 
 Configuration Review
 
-
+BL_VA_Daily gathers configuration information from a machine and write it to a file.  This was used in support of CIP compliance.
 
 ConfigCheck shows the configuration of the local machine vs a pre-determined configuation.  The pre-configuration is contained in test.csv.
 
