@@ -21,15 +21,15 @@
             FILE   - Save the output to a file
             NOFILE - Output to the screen (default)
 	.EXAMPLE
-		PS> Sweeper -IPSpace 199.96.21.
+		PS> Sweeper -IPSpace 199.99.21.
 		
 		This example sweeps the IP space using a SweepType of Full
         
-        PS> Sweeper -IPSpace 199.96.21. -IPStart 25 -IPEnd 35
+        PS> Sweeper -IPSpace 199.99.21. -IPStart 25 -IPEnd 35
 
-        This example sweeps 199.96.21.25 through 199.96.21.35 using a SweepType of FULL
+        This example sweeps 199.99.21.25 through 199.99.21.35 using a SweepType of FULL
 
-        PS> Sweeper -IPSpace 199.96.21. -SweepType PING -S2File FILE
+        PS> Sweeper -IPSpace 199.99.21. -SweepType PING -S2File FILE
 
         This example sweeps the IP space using a SweepType of PING and writes results to a file
 	#>
