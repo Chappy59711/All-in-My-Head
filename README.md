@@ -14,6 +14,22 @@ BL_VA_Daily gathers configuration information from a machine and write it to a f
 ConfigCheck shows the configuration of the local machine vs a pre-determined configuation.  The pre-configuration is contained in test.csv.
 
 Discovery
+
+BabyPingSweep
+
+A simple ping sweep script.
+
+New-p
+
+Used on the Hak5 Bash Bunny and must be run under an administrative account.  Allows discovery to run from the connected system using local IP resouces such as ARP table, route table, DNS cache, and trace route.  Uses Disc_IP and SpiderNet scripts.
+
+SpiderNet
+
+Must be run under an administrative account.  Runs discovery from the system using local IP resouces such as ARP table, route table, DNS cache, and trace route.
+
+Sweeper
+
+
 Interrogation
 Windows Firewall Analyzer - PowerShell
 Windows Firewall Monitor - C
