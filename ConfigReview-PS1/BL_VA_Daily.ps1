@@ -68,8 +68,7 @@ else
 }
 
 $CurDate = $(Get-Date -Format "MM-dd-yy")
-# $FPath = "\\socc-ems\fileshare\common\BLVA_Files_Do_Not_Delete_TC\"
-$ScriptPath = "\\emsntsrv84\netlogon\"
+$ScriptPath = "\\xxxxxxx\netlogon\"
 # $FPath = "c:\"
 # $FPath = "E:$($DirectoryToCreate)"
 $DevName = $env:COMPUTERNAME
@@ -232,7 +231,7 @@ $file2 = "$($FPath)$($PCFileYest)"
 $PCFile = "$($DevName)_Comparison_$($CurDate)_vs_$($YestDate).txt"
 $outFile1 = "$($FPath)$($PCFile)"
 
-# $outFile1 = "C:\Users\NWE_Staff\Documents\Baseline-Diff-File.txt"
+# $outFile1 = "C:\Users\xxxxx\Documents\Baseline-Diff-File.txt"
 
 Try{
     (Get-Content $file1) | where { $_.Trim(" `t") } | set-content $file1
