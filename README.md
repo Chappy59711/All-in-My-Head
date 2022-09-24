@@ -7,7 +7,12 @@ Attack Surface Analyzer
 
 Must be run under an adminitrative account.  Graphical user interface that shows the configuration of the local machine vs a pre-determined configuation. This application is not completed.
 
-Configuration Review -  
+Configuration Review
+
+
+
+ConfigCheck shows the configuration of the local machine vs a pre-determined configuation.  The pre-configuration is contained in test.csv.
+
 Discovery
 Interrogation
 Windows Firewall Analyzer - PowerShell
