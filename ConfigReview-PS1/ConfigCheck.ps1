@@ -608,11 +608,11 @@ Function VerifySettings
 Function Verify_Reg_Settings([PSObject] $IncomingReg)
 {
 
-    $NWEBLPolicies = import-csv "C:\Temp\Test.csv"
+    $BLPolicies = import-csv "C:\Temp\Test.csv"
 
     $global:OSRegIssues = 0
 
-    foreach ($Policy in $NWEBLPolicies) {
+    foreach ($Policy in $BLPolicies) {
         $TempPath = $Policy.'RegPath'
         $TempKey = $Policy.'RegKey'
         $Found = $False
@@ -784,9 +784,9 @@ Write-Host "====================================================================
 
 $curColor = $host.ui.RawUI.ForegroundColor
 $host.ui.RawUI.ForegroundColor = "Yellow"
-Write-Output "Verifying NWE Password Policies...Verified."
+Write-Output "Verifying Password Policies...Verified."
 
-Write-Output "`nVerifying NWE Firewall Configuration..."
+Write-Output "`nVerifying Firewall Configuration..."
 Write-Host "============================================================================"
 
 $host.ui.RawUI.ForegroundColor = $curColor
