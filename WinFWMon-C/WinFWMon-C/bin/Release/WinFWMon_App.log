@@ -1,0 +1,1856 @@
+2018-11-05 21:08:14 ==> Form1_Load:  ********************************************************************
+2018-11-05 21:08:14 ==> Form1_Load:  Program Started
+2018-11-05 21:08:14 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-05 21:08:14 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-05 21:08:14 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-05 21:08:14 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-05 21:08:14 ==> GetTotalLines: The firewall log is accessible.
+2018-11-05 21:08:14 ==> Form1_Load:  Lines in File ==> 54345
+2018-11-05 21:08:20 ==> Button1_Click:  Start Button is selected.
+2018-11-05 21:08:20 ==> rbLogLive: System.Windows.Forms.RadioButton, Checked: True
+2018-11-05 21:08:20 ==> rbLogFile: System.Windows.Forms.RadioButton, Checked: False
+2018-11-05 21:08:20 ==> Lines2Read: System.Windows.Forms.TextBox, Text: 50
+2018-11-05 21:08:20 ==> ckbxIPv6: System.Windows.Forms.CheckBox, CheckState: 0
+2018-11-05 21:08:20 ==> rbMonLocal: System.Windows.Forms.RadioButton, Checked: True
+2018-11-05 21:08:20 ==> rbMonRemote: System.Windows.Forms.RadioButton, Checked: False
+2018-11-05 21:08:20 ==> tbMonIP: System.Windows.Forms.TextBox, Text: 192.168.56.1
+2018-11-05 21:08:20 ==> Button1_Click:  Live
+2018-11-05 21:08:26 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:26 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:26 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:26 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:26 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:26 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:27 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:27 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:27 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:39 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:39 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:39 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:39 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:39 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:39 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:40 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:41 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:41 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:41 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:41 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:52 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:52 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:52 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:53 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:54 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:56 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:57 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:57 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:57 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:08:57 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:08:57 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:08:57 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:05 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:05 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:05 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:06 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:07 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:09 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:10 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:18 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:18 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:18 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:19 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:20 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:21 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:22 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:23 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:23 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:23 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:31 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:31 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:31 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:32 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:33 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:34 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:36 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:36 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:36 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:36 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:36 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:36 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:44 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:44 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:44 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:45 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:46 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:47 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:48 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:49 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:50 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:50 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:50 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:50 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:50 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:50 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:57 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:57 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:57 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:58 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:09:59 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:00 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:10 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:10 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:10 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:11 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:12 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:13 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:15 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-05 21:10:16 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-05 21:10:22 ==> Button1_Click:  Stop Button is selected.
+2018-11-05 21:10:23 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-05 21:10:23 ==> File_Worker_RunWorkerCompleted:  Task Cancelled
+2018-11-06 18:05:50 ==> Form1_Load:  ********************************************************************
+2018-11-06 18:05:51 ==> Form1_Load:  Program Started
+2018-11-06 18:05:51 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 18:05:51 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 18:05:51 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 18:05:51 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 18:05:51 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 18:05:51 ==> Form1_Load:  Lines in File ==> 62934
+2018-11-06 18:05:54 ==> Button1_Click:  Start Button is selected.
+2018-11-06 18:05:54 ==> rbLogLive: System.Windows.Forms.RadioButton, Checked: True
+2018-11-06 18:05:54 ==> rbLogFile: System.Windows.Forms.RadioButton, Checked: False
+2018-11-06 18:05:54 ==> Lines2Read: System.Windows.Forms.TextBox, Text: 50
+2018-11-06 18:05:54 ==> ckbxIPv6: System.Windows.Forms.CheckBox, CheckState: 0
+2018-11-06 18:05:54 ==> rbMonLocal: System.Windows.Forms.RadioButton, Checked: True
+2018-11-06 18:05:54 ==> rbMonRemote: System.Windows.Forms.RadioButton, Checked: False
+2018-11-06 18:05:54 ==> tbMonIP: System.Windows.Forms.TextBox, Text: 192.168.56.1
+2018-11-06 18:05:54 ==> Button1_Click:  Live
+2018-11-06 18:06:00 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:00 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:13 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:13 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:13 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:42 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:06:55 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:08 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:09 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:09 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:09 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:07:09 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:07:19 ==> Button1_Click:  Stop Button is selected.
+2018-11-06 18:07:21 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:07:21 ==> File_Worker_RunWorkerCompleted:  Task Cancelled
+2018-11-06 18:09:00 ==> Form1_Load:  ********************************************************************
+2018-11-06 18:09:00 ==> Form1_Load:  Program Started
+2018-11-06 18:09:00 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 18:09:01 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 18:09:01 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 18:09:01 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 18:09:01 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 18:09:01 ==> Form1_Load:  Lines in File ==> 63038
+2018-11-06 18:09:23 ==> Button1_Click:  Start Button is selected.
+2018-11-06 18:09:23 ==> rbLogLive: System.Windows.Forms.RadioButton, Checked: True
+2018-11-06 18:09:23 ==> rbLogFile: System.Windows.Forms.RadioButton, Checked: False
+2018-11-06 18:09:23 ==> Lines2Read: System.Windows.Forms.TextBox, Text: 50
+2018-11-06 18:09:23 ==> ckbxIPv6: System.Windows.Forms.CheckBox, CheckState: 0
+2018-11-06 18:09:23 ==> rbMonLocal: System.Windows.Forms.RadioButton, Checked: True
+2018-11-06 18:09:23 ==> rbMonRemote: System.Windows.Forms.RadioButton, Checked: False
+2018-11-06 18:09:23 ==> tbMonIP: System.Windows.Forms.TextBox, Text: 192.168.56.1
+2018-11-06 18:09:23 ==> Button1_Click:  Live
+2018-11-06 18:09:36 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:09:36 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:09:36 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:09:49 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:09:49 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:09:49 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:35 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:36 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:37 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:38 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:39 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:48 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:49 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:50 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:51 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:10:52 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:01 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:02 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:03 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:04 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:05 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:06 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:14 ==> File_Worker_ProgressChanged:  Implementing Search Criteria
+2018-11-06 18:11:14 ==> File_Worker_ProgressChanged:  Waiting for new log entries
+2018-11-06 18:11:14 ==> Button1_Click:  Stop Button is selected.
+2018-11-06 18:11:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:14 ==> File_Worker_ProgressChanged:  Progress Update Started
+2018-11-06 18:11:14 ==> File_Worker_RunWorkerCompleted:  Task Cancelled
+2018-11-06 19:20:06 ==> Form1_Load:  ********************************************************************
+2018-11-06 19:20:06 ==> Form1_Load:  Program Started
+2018-11-06 19:20:06 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 19:20:07 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 19:20:07 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 19:20:07 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 19:20:07 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 19:20:07 ==> Form1_Load:  Lines in File ==> 65289
+2018-11-06 19:22:47 ==> Form1_Load:  ********************************************************************
+2018-11-06 19:22:47 ==> Form1_Load:  Program Started
+2018-11-06 19:22:47 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 19:22:47 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 19:22:47 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 19:22:47 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 19:22:47 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 19:22:47 ==> Form1_Load:  Lines in File ==> 65400
+2018-11-06 19:28:01 ==> Form1_Load:  ********************************************************************
+2018-11-06 19:28:01 ==> Form1_Load:  Program Started
+2018-11-06 19:28:01 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 19:28:01 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 19:28:01 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 19:28:01 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 19:28:02 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 19:28:02 ==> Form1_Load:  Lines in File ==> 65577
+2018-11-06 19:28:58 ==> Form1_Load:  ********************************************************************
+2018-11-06 19:28:58 ==> Form1_Load:  Program Started
+2018-11-06 19:28:58 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 19:28:59 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 19:28:59 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 19:28:59 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 19:28:59 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 19:28:59 ==> Form1_Load:  Lines in File ==> 65597
+2018-11-06 19:52:58 ==> Form1_Load:  ********************************************************************
+2018-11-06 19:52:58 ==> Form1_Load:  Program Started
+2018-11-06 19:52:58 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 19:52:59 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 19:52:59 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 19:52:59 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 19:52:59 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 19:52:59 ==> Form1_Load:  Lines in File ==> 66203
+2018-11-06 19:59:14 ==> Form1_Load:  ********************************************************************
+2018-11-06 19:59:14 ==> Form1_Load:  Program Started
+2018-11-06 19:59:14 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 19:59:14 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 19:59:14 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 19:59:14 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 19:59:15 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 19:59:15 ==> Form1_Load:  Lines in File ==> 66390
+2018-11-06 20:02:24 ==> Form1_Load:  ********************************************************************
+2018-11-06 20:02:24 ==> Form1_Load:  Program Started
+2018-11-06 20:02:24 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 20:02:25 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 20:02:25 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 20:02:25 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 20:02:25 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 20:02:25 ==> Form1_Load:  Lines in File ==> 66577
+2018-11-06 20:10:27 ==> Form1_Load:  ********************************************************************
+2018-11-06 20:10:27 ==> Form1_Load:  Program Started
+2018-11-06 20:10:27 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 20:10:28 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 20:10:28 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 20:10:28 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 20:10:28 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 20:10:28 ==> Form1_Load:  Lines in File ==> 66783
+2018-11-06 20:11:32 ==> Form1_Load:  ********************************************************************
+2018-11-06 20:11:32 ==> Form1_Load:  Program Started
+2018-11-06 20:11:32 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 20:11:33 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 20:11:33 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 20:11:33 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 20:11:33 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 20:11:33 ==> Form1_Load:  Lines in File ==> 66783
+2018-11-06 20:16:25 ==> Form1_Load:  ********************************************************************
+2018-11-06 20:16:25 ==> Form1_Load:  Program Started
+2018-11-06 20:16:25 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 20:16:26 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 20:16:26 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 20:16:26 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 20:16:26 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 20:16:26 ==> Form1_Load:  Lines in File ==> 66967
+2018-11-06 20:21:46 ==> Form1_Load:  ********************************************************************
+2018-11-06 20:21:46 ==> Form1_Load:  Program Started
+2018-11-06 20:21:46 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 20:21:47 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 20:21:47 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 20:21:47 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 20:21:47 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 20:21:47 ==> Form1_Load:  Lines in File ==> 67109
+2018-11-06 20:23:15 ==> Form1_Load:  ********************************************************************
+2018-11-06 20:23:15 ==> Form1_Load:  Program Started
+2018-11-06 20:23:15 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 20:23:15 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 20:23:15 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 20:23:15 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 20:23:16 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 20:23:16 ==> Form1_Load:  Lines in File ==> 67161
+2018-11-06 21:30:22 ==> Form1_Load:  ********************************************************************
+2018-11-06 21:30:22 ==> Form1_Load:  Program Started
+2018-11-06 21:30:22 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 21:30:23 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 21:30:23 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 21:30:23 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 21:30:23 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 21:30:23 ==> Form1_Load:  Lines in File ==> 68991
+2018-11-06 21:31:24 ==> Form1_Load:  ********************************************************************
+2018-11-06 21:31:25 ==> Form1_Load:  Program Started
+2018-11-06 21:31:25 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-06 21:31:25 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-06 21:31:25 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-06 21:31:25 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-06 21:31:25 ==> GetTotalLines: The firewall log is accessible.
+2018-11-06 21:31:25 ==> Form1_Load:  Lines in File ==> 69080
+2018-11-07 19:52:20 ==> Form1_Load:  ********************************************************************
+2018-11-07 19:52:20 ==> Form1_Load:  Program Started
+2018-11-07 19:52:20 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-07 19:52:21 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-07 19:52:21 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-07 19:52:21 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-07 19:52:21 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-07 19:52:29 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 18:33:23 ==> Form1_Load:  ********************************************************************
+2018-11-08 18:33:24 ==> Form1_Load:  Program Started
+2018-11-08 18:33:24 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 18:33:24 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 18:33:24 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 18:33:24 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 18:33:24 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 18:33:28 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 19:19:07 ==> Form1_Load:  ********************************************************************
+2018-11-08 19:19:07 ==> Form1_Load:  Program Started
+2018-11-08 19:19:07 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 19:19:07 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 19:19:07 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 19:19:08 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 19:19:08 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 19:19:14 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 19:20:38 ==> Form1_Load:  ********************************************************************
+2018-11-08 19:20:38 ==> Form1_Load:  Program Started
+2018-11-08 19:20:38 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 19:20:39 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 19:20:39 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 19:20:39 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 19:20:39 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 19:20:45 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 19:29:39 ==> Form1_Load:  ********************************************************************
+2018-11-08 19:29:39 ==> Form1_Load:  Program Started
+2018-11-08 19:29:39 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 19:29:40 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 19:29:40 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 19:29:40 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 19:29:40 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 19:31:08 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 19:41:13 ==> Form1_Load:  ********************************************************************
+2018-11-08 19:41:13 ==> Form1_Load:  Program Started
+2018-11-08 19:41:13 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 19:41:14 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 19:41:14 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 19:41:14 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 19:41:14 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 19:42:29 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 19:51:30 ==> Form1_Load:  ********************************************************************
+2018-11-08 19:51:30 ==> Form1_Load:  Program Started
+2018-11-08 19:51:30 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 19:51:31 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 19:51:31 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 19:51:31 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 19:51:31 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 19:51:33 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 19:52:57 ==> Form1_Load:  ********************************************************************
+2018-11-08 19:52:57 ==> Form1_Load:  Program Started
+2018-11-08 19:52:57 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 19:52:57 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 19:52:57 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 19:52:58 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 19:52:58 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 19:52:59 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 20:07:12 ==> Form1_Load:  ********************************************************************
+2018-11-08 20:07:12 ==> Form1_Load:  Program Started
+2018-11-08 20:07:12 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 20:07:13 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 20:07:13 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 20:07:13 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 20:07:13 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 20:07:15 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 20:09:03 ==> Form1_Load:  ********************************************************************
+2018-11-08 20:09:03 ==> Form1_Load:  Program Started
+2018-11-08 20:09:03 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 20:09:04 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 20:09:04 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 20:09:04 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 20:09:04 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 20:09:06 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 20:10:25 ==> Form1_Load:  ********************************************************************
+2018-11-08 20:10:25 ==> Form1_Load:  Program Started
+2018-11-08 20:10:25 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 20:10:26 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 20:10:26 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 20:10:26 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 20:10:26 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 20:10:58 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 20:18:28 ==> Form1_Load:  ********************************************************************
+2018-11-08 20:18:28 ==> Form1_Load:  Program Started
+2018-11-08 20:18:28 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 20:18:29 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 20:18:29 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 20:18:29 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 20:18:29 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 20:18:31 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 20:25:56 ==> Form1_Load:  ********************************************************************
+2018-11-08 20:25:56 ==> Form1_Load:  Program Started
+2018-11-08 20:25:56 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 20:25:57 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 20:25:57 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 20:25:57 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 20:25:57 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 20:26:03 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 20:37:23 ==> Form1_Load:  ********************************************************************
+2018-11-08 20:37:23 ==> Form1_Load:  Program Started
+2018-11-08 20:37:23 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 20:37:24 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 20:37:24 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 20:37:24 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 20:37:24 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 20:37:25 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 22:02:49 ==> Form1_Load:  ********************************************************************
+2018-11-08 22:02:50 ==> Form1_Load:  Program Started
+2018-11-08 22:02:50 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 22:02:50 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 22:02:50 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 22:02:50 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 22:02:50 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 22:02:53 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 22:10:00 ==> Form1_Load:  ********************************************************************
+2018-11-08 22:10:00 ==> Form1_Load:  Program Started
+2018-11-08 22:10:00 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 22:10:00 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 22:10:00 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 22:10:00 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 22:10:00 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 22:10:02 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 22:14:52 ==> Form1_Load:  ********************************************************************
+2018-11-08 22:14:53 ==> Form1_Load:  Program Started
+2018-11-08 22:14:53 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 22:14:53 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 22:14:53 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 22:14:53 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 22:14:53 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 22:14:55 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 22:16:59 ==> Form1_Load:  ********************************************************************
+2018-11-08 22:16:59 ==> Form1_Load:  Program Started
+2018-11-08 22:16:59 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 22:16:59 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 22:17:00 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 22:17:00 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 22:17:00 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 22:17:08 ==> Form1_Load:  Lines in File ==> 0
+2018-11-08 22:35:58 ==> Form1_Load:  ********************************************************************
+2018-11-08 22:35:58 ==> Form1_Load:  Program Started
+2018-11-08 22:35:58 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-08 22:35:58 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-08 22:35:58 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-08 22:35:58 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-08 22:35:58 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-08 22:36:15 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 15:53:49 ==> Form1_Load:  ********************************************************************
+2018-11-09 15:53:49 ==> Form1_Load:  Program Started
+2018-11-09 15:53:49 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 15:53:50 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 15:53:50 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 15:53:50 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 15:53:50 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 15:53:54 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:07:03 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:07:03 ==> Form1_Load:  Program Started
+2018-11-09 19:07:03 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:07:04 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:07:04 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:07:04 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:07:04 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:07:10 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:39:48 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:39:48 ==> Form1_Load:  Program Started
+2018-11-09 19:39:48 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:39:49 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:39:49 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:39:49 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:39:49 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:39:51 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:43:15 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:43:16 ==> Form1_Load:  Program Started
+2018-11-09 19:43:16 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:43:16 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:43:16 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:43:16 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:43:16 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:43:18 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:44:28 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:44:28 ==> Form1_Load:  Program Started
+2018-11-09 19:44:28 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:44:29 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:44:29 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:44:29 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:44:29 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:44:49 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:45:30 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:45:30 ==> Form1_Load:  Program Started
+2018-11-09 19:45:30 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:45:30 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:45:31 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:45:31 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:45:31 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:45:33 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:46:50 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:46:50 ==> Form1_Load:  Program Started
+2018-11-09 19:46:50 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:46:51 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:46:51 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:46:51 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:46:51 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:46:54 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:47:39 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:47:39 ==> Form1_Load:  Program Started
+2018-11-09 19:47:40 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:47:40 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:47:40 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:47:40 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:47:40 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:47:45 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:51:20 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:51:20 ==> Form1_Load:  Program Started
+2018-11-09 19:51:20 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:51:21 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:51:21 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:51:21 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:51:21 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:51:22 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:52:42 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:52:42 ==> Form1_Load:  Program Started
+2018-11-09 19:52:42 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:52:43 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:52:43 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:52:43 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:52:43 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:52:46 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:54:15 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:54:15 ==> Form1_Load:  Program Started
+2018-11-09 19:54:15 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:54:16 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:54:16 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:54:16 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:54:16 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:54:18 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:56:51 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:56:51 ==> Form1_Load:  Program Started
+2018-11-09 19:56:51 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:56:52 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:56:52 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:56:52 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:56:52 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:57:26 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 19:58:05 ==> Form1_Load:  ********************************************************************
+2018-11-09 19:58:05 ==> Form1_Load:  Program Started
+2018-11-09 19:58:05 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 19:58:05 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 19:58:05 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 19:58:05 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 19:58:05 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 19:58:07 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 20:06:21 ==> Form1_Load:  ********************************************************************
+2018-11-09 20:06:22 ==> Form1_Load:  Program Started
+2018-11-09 20:06:22 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 20:06:22 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 20:06:22 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 20:06:22 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 20:06:22 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 20:06:25 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 20:09:28 ==> Form1_Load:  ********************************************************************
+2018-11-09 20:09:28 ==> Form1_Load:  Program Started
+2018-11-09 20:09:28 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 20:09:29 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 20:09:29 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 20:09:29 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 20:09:29 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 20:09:30 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 20:48:48 ==> Form1_Load:  ********************************************************************
+2018-11-09 20:48:48 ==> Form1_Load:  Program Started
+2018-11-09 20:48:48 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 20:48:49 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 20:48:49 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 20:48:49 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 20:48:49 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 20:48:51 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 20:49:59 ==> Form1_Load:  ********************************************************************
+2018-11-09 20:49:59 ==> Form1_Load:  Program Started
+2018-11-09 20:49:59 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 20:50:00 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 20:50:00 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 20:50:00 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 20:50:00 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 20:50:02 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 20:51:47 ==> Form1_Load:  ********************************************************************
+2018-11-09 20:51:47 ==> Form1_Load:  Program Started
+2018-11-09 20:51:47 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 20:51:48 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 20:51:48 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 20:51:48 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 20:51:48 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 20:51:49 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 20:52:41 ==> Form1_Load:  ********************************************************************
+2018-11-09 20:52:41 ==> Form1_Load:  Program Started
+2018-11-09 20:52:41 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 20:52:41 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 20:52:41 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 20:52:41 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 20:52:41 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 20:52:43 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 20:56:18 ==> Form1_Load:  ********************************************************************
+2018-11-09 20:56:19 ==> Form1_Load:  Program Started
+2018-11-09 20:56:19 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 20:56:19 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 20:56:19 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 20:56:19 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 20:56:19 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 20:56:20 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 20:58:09 ==> Form1_Load:  ********************************************************************
+2018-11-09 20:58:10 ==> Form1_Load:  Program Started
+2018-11-09 20:58:10 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 20:58:10 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 20:58:10 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 20:58:10 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 20:58:10 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 20:58:12 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:06:24 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:06:25 ==> Form1_Load:  Program Started
+2018-11-09 21:06:25 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:06:25 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:06:25 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:06:25 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:06:25 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:06:26 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:09:22 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:09:22 ==> Form1_Load:  Program Started
+2018-11-09 21:09:22 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:09:22 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:09:22 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:09:22 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:09:22 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:09:24 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:14:11 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:14:11 ==> Form1_Load:  Program Started
+2018-11-09 21:14:11 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:14:11 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:14:11 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:14:11 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:14:11 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:14:13 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:20:14 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:20:14 ==> Form1_Load:  Program Started
+2018-11-09 21:20:14 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:20:15 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:20:15 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:20:15 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:20:15 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:20:17 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:23:53 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:23:53 ==> Form1_Load:  Program Started
+2018-11-09 21:23:53 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:23:54 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:23:54 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:23:54 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:23:54 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:23:55 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:28:17 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:28:17 ==> Form1_Load:  Program Started
+2018-11-09 21:28:17 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:28:18 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:28:18 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:28:18 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:28:18 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:28:19 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:41:08 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:41:09 ==> Form1_Load:  Program Started
+2018-11-09 21:41:09 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:41:09 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:41:09 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:41:09 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:41:09 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:41:11 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:43:35 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:43:35 ==> Form1_Load:  Program Started
+2018-11-09 21:43:35 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:43:36 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:43:36 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:43:36 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:43:36 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:43:38 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:45:03 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:45:03 ==> Form1_Load:  Program Started
+2018-11-09 21:45:03 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:45:04 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:45:04 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:45:04 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:45:04 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:45:06 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:45:39 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:45:40 ==> Form1_Load:  Program Started
+2018-11-09 21:45:40 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:45:41 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:45:41 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:45:41 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:45:41 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:45:42 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:49:13 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:49:14 ==> Form1_Load:  Program Started
+2018-11-09 21:49:14 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:49:14 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:49:14 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:49:14 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:49:14 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:49:16 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:50:38 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:50:38 ==> Form1_Load:  Program Started
+2018-11-09 21:50:38 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:50:39 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:50:39 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:50:39 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:50:39 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:50:41 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:55:16 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:55:16 ==> Form1_Load:  Program Started
+2018-11-09 21:55:16 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:55:17 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:55:17 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:55:17 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:55:17 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:55:18 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 21:59:38 ==> Form1_Load:  ********************************************************************
+2018-11-09 21:59:38 ==> Form1_Load:  Program Started
+2018-11-09 21:59:38 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 21:59:39 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 21:59:39 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 21:59:39 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 21:59:39 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 21:59:40 ==> Form1_Load:  Lines in File ==> 0
+2018-11-09 22:06:20 ==> Form1_Load:  ********************************************************************
+2018-11-09 22:06:20 ==> Form1_Load:  Program Started
+2018-11-09 22:06:20 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-09 22:06:20 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-09 22:06:20 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-09 22:06:20 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-09 22:06:20 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-09 22:06:22 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 07:07:26 ==> Form1_Load:  ********************************************************************
+2018-11-10 07:07:26 ==> Form1_Load:  Program Started
+2018-11-10 07:07:26 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 07:07:27 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 07:07:27 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 07:07:27 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 07:07:27 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 07:07:32 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 07:10:35 ==> Form1_Load:  ********************************************************************
+2018-11-10 07:10:36 ==> Form1_Load:  Program Started
+2018-11-10 07:10:36 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 07:10:36 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 07:10:36 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 07:10:36 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 07:10:36 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 07:10:41 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 07:18:23 ==> Form1_Load:  ********************************************************************
+2018-11-10 07:18:24 ==> Form1_Load:  Program Started
+2018-11-10 07:18:24 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 07:18:25 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 07:18:25 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 07:18:25 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 07:18:25 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 07:18:28 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 07:23:44 ==> Form1_Load:  ********************************************************************
+2018-11-10 07:23:44 ==> Form1_Load:  Program Started
+2018-11-10 07:23:44 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 07:23:45 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 07:23:45 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 07:23:45 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 07:23:45 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 07:23:48 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 07:40:15 ==> Form1_Load:  ********************************************************************
+2018-11-10 07:40:16 ==> Form1_Load:  Program Started
+2018-11-10 07:40:16 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 07:40:16 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 07:40:16 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 07:40:16 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 07:40:16 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 07:40:18 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 07:49:48 ==> Form1_Load:  ********************************************************************
+2018-11-10 07:49:48 ==> Form1_Load:  Program Started
+2018-11-10 07:49:48 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 07:49:49 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 07:49:49 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 07:49:49 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 07:49:49 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 07:49:51 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 08:49:59 ==> Form1_Load:  ********************************************************************
+2018-11-10 08:50:00 ==> Form1_Load:  Program Started
+2018-11-10 08:50:00 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 08:50:00 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 08:50:00 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 08:50:00 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 08:50:00 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 08:50:02 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 08:51:39 ==> Form1_Load:  ********************************************************************
+2018-11-10 08:51:40 ==> Form1_Load:  Program Started
+2018-11-10 08:51:40 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 08:51:40 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 08:51:40 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 08:51:40 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 08:51:40 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 08:51:42 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 08:53:35 ==> Form1_Load:  ********************************************************************
+2018-11-10 08:53:35 ==> Form1_Load:  Program Started
+2018-11-10 08:53:35 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 08:53:36 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 08:53:36 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 08:53:36 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 08:53:36 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 08:53:47 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:00:41 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:00:42 ==> Form1_Load:  Program Started
+2018-11-10 09:00:42 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:00:43 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:00:43 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:00:43 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:00:43 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:00:44 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:01:39 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:01:39 ==> Form1_Load:  Program Started
+2018-11-10 09:01:39 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:01:40 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:01:40 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:01:40 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:01:40 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:01:42 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:02:21 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:02:22 ==> Form1_Load:  Program Started
+2018-11-10 09:02:22 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:02:22 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:02:22 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:02:22 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:02:22 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:02:25 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:03:15 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:03:16 ==> Form1_Load:  Program Started
+2018-11-10 09:03:16 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:03:16 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:03:16 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:03:16 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:03:16 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:03:17 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:05:46 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:05:46 ==> Form1_Load:  Program Started
+2018-11-10 09:05:46 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:05:47 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:05:47 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:05:47 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:05:47 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:05:49 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:29:54 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:29:54 ==> Form1_Load:  Program Started
+2018-11-10 09:29:54 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:29:55 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:29:55 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:29:55 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:29:55 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:30:18 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:31:37 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:31:37 ==> Form1_Load:  Program Started
+2018-11-10 09:31:37 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:31:38 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:31:38 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:31:38 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:31:38 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:31:41 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:38:27 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:38:28 ==> Form1_Load:  Program Started
+2018-11-10 09:38:28 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:38:28 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:38:28 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:38:28 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:38:28 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:38:29 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:46:44 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:46:45 ==> Form1_Load:  Program Started
+2018-11-10 09:46:45 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:46:45 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:46:45 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:46:45 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:46:45 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:46:47 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 09:47:55 ==> Form1_Load:  ********************************************************************
+2018-11-10 09:47:56 ==> Form1_Load:  Program Started
+2018-11-10 09:47:56 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 09:47:56 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 09:47:56 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 09:47:56 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 09:47:56 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 09:47:58 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 10:18:49 ==> Form1_Load:  ********************************************************************
+2018-11-10 10:18:49 ==> Form1_Load:  Program Started
+2018-11-10 10:18:49 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 10:18:50 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 10:18:50 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 10:18:50 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 10:18:50 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 10:18:53 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 10:23:33 ==> Form1_Load:  ********************************************************************
+2018-11-10 10:23:34 ==> Form1_Load:  Program Started
+2018-11-10 10:23:34 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 10:23:34 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 10:23:34 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 10:23:34 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 10:23:34 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 10:23:37 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 10:51:29 ==> Form1_Load:  ********************************************************************
+2018-11-10 10:51:30 ==> Form1_Load:  Program Started
+2018-11-10 10:51:30 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 10:51:30 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 10:51:30 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 10:51:30 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 10:51:30 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 10:51:32 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 10:52:21 ==> Form1_Load:  ********************************************************************
+2018-11-10 10:52:22 ==> Form1_Load:  Program Started
+2018-11-10 10:52:22 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 10:52:22 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 10:52:22 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 10:52:22 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 10:52:22 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 10:52:24 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 10:53:37 ==> Form1_Load:  ********************************************************************
+2018-11-10 10:53:37 ==> Form1_Load:  Program Started
+2018-11-10 10:53:37 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 10:53:38 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 10:53:38 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 10:53:38 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 10:53:38 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 10:53:39 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 10:57:36 ==> Form1_Load:  ********************************************************************
+2018-11-10 10:57:36 ==> Form1_Load:  Program Started
+2018-11-10 10:57:36 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 10:57:37 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 10:57:37 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 10:57:37 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 10:57:37 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 10:57:39 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:05:48 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:05:48 ==> Form1_Load:  Program Started
+2018-11-10 11:05:48 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:05:49 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:05:49 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:05:49 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:05:49 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:05:51 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:07:59 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:07:59 ==> Form1_Load:  Program Started
+2018-11-10 11:07:59 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:08:00 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:08:00 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:08:00 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:08:00 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:08:06 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:10:14 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:10:14 ==> Form1_Load:  Program Started
+2018-11-10 11:10:14 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:10:15 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:10:15 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:10:15 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:10:15 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:10:16 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:11:00 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:11:01 ==> Form1_Load:  Program Started
+2018-11-10 11:11:01 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:11:01 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:11:01 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:11:01 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:11:01 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:11:06 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:13:14 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:13:15 ==> Form1_Load:  Program Started
+2018-11-10 11:13:15 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:13:15 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:13:15 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:13:15 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:13:16 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:13:17 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:15:51 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:15:51 ==> Form1_Load:  Program Started
+2018-11-10 11:15:51 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:15:52 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:15:52 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:15:52 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:15:52 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:15:54 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:17:37 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:17:38 ==> Form1_Load:  Program Started
+2018-11-10 11:17:38 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:17:38 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:17:38 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:17:38 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:17:38 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:17:40 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:19:14 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:19:15 ==> Form1_Load:  Program Started
+2018-11-10 11:19:15 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:19:15 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:19:15 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:19:15 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:19:15 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:19:18 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:21:26 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:21:27 ==> Form1_Load:  Program Started
+2018-11-10 11:21:27 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:21:27 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:21:27 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:21:27 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:21:27 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:21:30 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:26:21 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:26:21 ==> Form1_Load:  Program Started
+2018-11-10 11:26:21 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:26:22 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:26:22 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:26:22 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:26:22 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:26:23 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 11:34:25 ==> Form1_Load:  ********************************************************************
+2018-11-10 11:34:25 ==> Form1_Load:  Program Started
+2018-11-10 11:34:25 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 11:34:26 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 11:34:26 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 11:34:26 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 11:34:26 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 11:34:28 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 14:36:52 ==> Form1_Load:  ********************************************************************
+2018-11-10 14:36:53 ==> Form1_Load:  Program Started
+2018-11-10 14:36:53 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 14:36:53 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 14:36:53 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 14:36:53 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 14:36:53 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 14:36:55 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 14:38:57 ==> Form1_Load:  ********************************************************************
+2018-11-10 14:38:57 ==> Form1_Load:  Program Started
+2018-11-10 14:38:57 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 14:38:57 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 14:38:57 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 14:38:57 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 14:38:58 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 14:39:01 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 18:43:11 ==> Form1_Load:  ********************************************************************
+2018-11-10 18:43:12 ==> Form1_Load:  Program Started
+2018-11-10 18:43:12 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 18:43:12 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 18:43:12 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 18:43:12 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 18:43:12 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 18:43:16 ==> Form1_Load:  Lines in File ==> 0
+2018-11-10 18:47:51 ==> Form1_Load:  ********************************************************************
+2018-11-10 18:47:51 ==> Form1_Load:  Program Started
+2018-11-10 18:47:51 ==> Form1_Load:  Gettting Local IP Address...
+2018-11-10 18:47:52 ==> GetLocalIPAddress:       fe80::ccda:ee26:e238:8e81%21
+2018-11-10 18:47:52 ==> GetLocalIPAddress:       192.168.56.1
+2018-11-10 18:47:52 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2018-11-10 18:47:52 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2018-11-10 18:47:58 ==> Form1_Load:  Lines in File ==> 0
+2019-09-15 21:37:15 ==> Form1_Load:  ********************************************************************
+2019-09-15 21:37:15 ==> Form1_Load:  Program Started
+2019-09-15 21:37:15 ==> Form1_Load:  Gettting Local IP Address...
+2019-09-15 21:37:15 ==> GetLocalIPAddress:       fe80::79ca:aea5:94ab:7f1c%5
+2019-09-15 21:37:15 ==> GetLocalIPAddress:       10.206.10.3
+2019-09-15 21:37:15 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2019-09-15 21:37:15 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2019-09-15 21:37:18 ==> Form1_Load:  Lines in File ==> 0
+2019-11-09 12:42:53 ==> Form1_Load:  ********************************************************************
+2019-11-09 12:42:53 ==> Form1_Load:  Program Started
+2019-11-09 12:42:53 ==> Form1_Load:  Gettting Local IP Address...
+2019-11-09 12:42:53 ==> GetLocalIPAddress:       10.0.2.211
+2019-11-09 12:42:53 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2019-11-09 12:42:53 ==> GetTotalLines: The firewall log is accessible.
+2019-11-09 12:42:53 ==> Form1_Load:  Lines in File ==> 27804
+2019-11-09 12:43:02 ==> Form1_Load:  ********************************************************************
+2019-11-09 12:43:02 ==> Form1_Load:  Program Started
+2019-11-09 12:43:02 ==> Form1_Load:  Gettting Local IP Address...
+2019-11-09 12:43:02 ==> GetLocalIPAddress:       10.0.2.15
+2019-11-09 12:43:02 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2019-11-09 12:43:02 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2019-11-09 12:43:05 ==> Form1_Load:  Lines in File ==> 0
+2020-01-19 06:28:39 ==> Form1_Load:  ********************************************************************
+2020-01-19 06:28:39 ==> Form1_Load:  Program Started
+2020-01-19 06:28:39 ==> Form1_Load:  Gettting Local IP Address...
+2020-01-19 06:28:39 ==> GetLocalIPAddress:       10.0.2.15
+2020-01-19 06:28:39 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2020-01-19 06:28:39 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2020-01-19 06:28:47 ==> Form1_Load:  Lines in File ==> 0
+2020-02-29 08:28:01 ==> Form1_Load:  ********************************************************************
+2020-02-29 08:28:01 ==> Form1_Load:  Program Started
+2020-02-29 08:28:01 ==> Form1_Load:  Gettting Local IP Address...
+2020-02-29 08:28:01 ==> GetLocalIPAddress:       10.0.2.15
+2020-02-29 08:28:01 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2020-02-29 08:28:01 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2020-02-29 08:28:04 ==> Form1_Load:  Lines in File ==> 0
+2020-06-19 22:01:54 ==> Form1_Load:  ********************************************************************
+2020-06-19 22:01:54 ==> Form1_Load:  Program Started
+2020-06-19 22:01:54 ==> Form1_Load:  Gettting Local IP Address...
+2020-06-19 22:01:54 ==> GetLocalIPAddress:       10.0.4.5
+2020-06-19 22:01:54 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2020-06-19 22:01:54 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2020-06-19 22:01:55 ==> Form1_Load:  Lines in File ==> 0
+2020-07-06 18:16:47 ==> Form1_Load:  ********************************************************************
+2020-07-06 18:16:47 ==> Form1_Load:  Program Started
+2020-07-06 18:16:47 ==> Form1_Load:  Gettting Local IP Address...
+2020-07-06 18:16:47 ==> GetLocalIPAddress:       10.0.4.5
+2020-07-06 18:16:47 ==> Form1_Load:  FilePath ==> C:\Windows\System32\LogFiles\Firewall
+2020-07-06 18:16:48 ==> Access to the path 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log' is denied.
+2020-07-06 18:16:50 ==> Form1_Load:  Lines in File ==> 0

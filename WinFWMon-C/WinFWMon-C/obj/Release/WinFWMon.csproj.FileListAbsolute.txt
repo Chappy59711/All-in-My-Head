@@ -1,0 +1,10 @@
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\bin\Release\WinFWMon.exe.config
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\bin\Release\WinFWMon.exe
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\bin\Release\WinFWMon.pdb
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\obj\Release\WinFWMon.Properties.Resources.resources
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\obj\Release\WinFWMon.csproj.GenerateResource.cache
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\obj\Release\WinFWMon.csproj.CoreCompileInputs.cache
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\obj\Release\WinFWMon.exe
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\obj\Release\WinFWMon.pdb
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\obj\Release\WinFWMon.csprojAssemblyReference.cache
+C:\Users\TChapman\source\repos\WinFWMon\WinFWMon\obj\Release\WinFWMon.MainForm.resources
