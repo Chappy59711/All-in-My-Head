@@ -3,7 +3,8 @@ Ideas - Most bad, some good
 
 This ia a repository of tools I have developed over the years.  Some work really well, others are still a work in progress.  More information about each will be added over the next several days.
 
-Attack Surface Analyzer - Must be run under an adminitrative account.  Graphical user interface 
+Attack Surface Analyzer - Must be run under an adminitrative account.  Graphical user interface that shows the configuration of the local machine vs a pre-determined configuation.
+
 Configuration Review
 Discovery
 Interrogation
