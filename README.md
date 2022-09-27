@@ -29,11 +29,26 @@ Must be run under an administrative account.  Runs discovery from the system usi
 
 Sweeper
 
+Performs either a ping sweep and/or DNS resolution across an IP space.
 
 Interrogation
+
+Disc_IP
+
+Must be run under an administrative account.  Performs a simple port scan with some telnet based interrogation of certain ports.  Also performs DNS resolution and IP location information from IPINFO.io.
+
 Windows Firewall Analyzer - PowerShell
 Windows Firewall Monitor - C
 Windows Firewall Monitor - Python
+
 Generic Security Strategy
+
+Example of a Security Strategy document
+
 Generic Vulnerability Assessment Report
+
+Example of a Vulnerability Assessment document
+
 WinFWMon.exe
+
+C version of the Windows Firewall Monitor.
