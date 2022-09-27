@@ -25,9 +25,11 @@ Interrogation
 
 Disc_IP - Must be run under an administrative account.  Performs a simple port scan with some telnet based interrogation of certain ports.  Also performs DNS resolution and IP location information from IPINFO.io.
 
-Windows Firewall Analyzer - PowerShell
-Windows Firewall Monitor - C
-Windows Firewall Monitor - Python
+Windows Firewall Analyzer - PowerShell - analyzes the local or one remote firewall logs.
+
+Windows Firewall Monitor - C - analyzes the local or one remote firewall logs.
+
+Windows Firewall Monitor - Python - monitors up to 50 Windows firewall logs simultaneous.
 
 Generic Security Strategy - Example of a Security Strategy document
 
